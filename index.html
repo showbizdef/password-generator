@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator by showbizdef</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>Password Generator</h1>
-    <div id="password">Your password will appear here</div>
-    <button onClick={generatePassword()}>Generate Password</button>
+<div class="corner-message">
+    <a href="https://t.me/showbizdef/" id="link-button" class="button" target="_blank">author: showbizdef😁</a>
 </div>
 
-<script src="app.js"></script>
+<div class="container">
+    <h1>Password Generator</h1>
+    <input type="text" placeholder="Here can be your password" id="password" readonly>
+    <button onClick={generatePassword()}>Generate</button>
+    <button id="copy-button" onclick="copyPassword()">Copy</button>
+</div>
+
+<script src="app2.js"></script>
 
 </body>
 </html>
