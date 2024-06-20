@@ -18,6 +18,21 @@
     <input type="text" placeholder="Here can be your password" id="password" readonly>
     <button id="button" onClick={generatePassword()}>Generate</button>
     <button id="copy-button" onclick="copyPassword()">Copy</button>
+    <button id="open-modal-btn">Why so hard?</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Why Should There Be Hard Passwords?</h2>
+            <p>In today's digital age, strong passwords are essential for protecting your personal information and ensuring the security of your online accounts. Easy-to-guess passwords are vulnerable to hacking attempts, which can lead to unauthorized access to your sensitive data. Here are a few reasons why hard passwords are important:</p>
+            <ul>
+                <li><strong>Prevent Unauthorized Access:</strong> Strong passwords help prevent unauthorized users from accessing your accounts and personal information.</li>
+                <li><strong>Protect Sensitive Data:</strong> Complex passwords make it more difficult for hackers to steal your data, such as financial information and personal details.</li>
+                <li><strong>Avoid Identity Theft:</strong> Using hard passwords reduces the risk of identity theft, where attackers use your personal information for fraudulent activities.</li>
+                <li><strong>Comply with Security Standards:</strong> Many organizations require strong passwords to comply with security standards and protect their systems from breaches.</li>
+            </ul>
+            <p>By using a combination of letters, numbers, and special characters, you can create strong passwords that are more secure and less likely to be compromised.</p>
+            <a href="https://www.youtube.com/watch?v=YitHISP0Isk&ab_channel=LearningMole" target="_blank">Video on this topic</a>
+        </div>
 </div>
 
 <script src="app.js"></script>
