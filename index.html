@@ -10,17 +10,17 @@
 <body>
 
 <div class="corner-message">
-    <a href="https://t.me/showbizdef/" id="link-button" class="button" target="_blank">author: showbizdef😁</a>
+    <button id="link-button" onclick="openLinkWindow()">author: showbizdef😁</button>
 </div>
 
 <div class="container">
     <h1>Password Generator</h1>
     <input type="text" placeholder="Here can be your password" id="password" readonly>
-    <button onClick={generatePassword()}>Generate</button>
+    <button id="button" onClick={generatePassword()}>Generate</button>
     <button id="copy-button" onclick="copyPassword()">Copy</button>
 </div>
 
-<script src="app2.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
