@@ -15,9 +15,13 @@
 
 <div class="container">
     <h1>Password Generator</h1>
+    <div>
+        <label for="passwordLength">Password Length: <span id="lengthValue">12</span></label>
+        <input type="range" id="passwordLength" min="8" max="20" value = "12">
+    </div>
     <input type="text" placeholder="Here can be your password" id="password" readonly>
-    <button id="button" onClick={generatePassword()}>Generate</button>
-    <button id="copy-button" onclick="copyPassword()">Copy</button>
+    <button id="generate-btn">Generate</button>
+    <button id="copy-btn">Copy Password</button>
     <button id="open-modal-btn">Why so hard?</button>
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -32,6 +36,9 @@
             </ul>
             <p>By using a combination of letters, numbers, and special characters, you can create strong passwords that are more secure and less likely to be compromised.</p>
             <a href="https://www.youtube.com/watch?v=YitHISP0Isk&ab_channel=LearningMole" target="_blank">Video on this topic</a>
+        </div>
+        <div id="strength-indicator">
+            <div id="sterngth-bar"></div>
         </div>
 </div>
 
