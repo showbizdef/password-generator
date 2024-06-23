@@ -14,6 +14,10 @@ body {
     border: 1px solid #696969;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 input[type="text"], input [type="range"] {
@@ -22,12 +26,12 @@ input[type="text"], input [type="range"] {
     margin-bottom: 10px;
     border: 1px solid #ffffff;
     color: white;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     border-radius: 5px;
     font-size: 16px;
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
     font-size: 1em;
     text-align: center;
@@ -40,12 +44,12 @@ input[type="text"], input [type="range"] {
     word-wrap: break-word;
 }
 #generate-btn {
-    background-color: #9370DB;
+    background-color: #4f4f4f;
     color: white;
     padding: 10px 20px;
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
     font-size: 1em;
     cursor: pointer;
@@ -54,12 +58,12 @@ input[type="text"], input [type="range"] {
 }
 
 #copy-btn {
-    background-color: #9370DB;
+    background-color: #4f4f4f;
     color: white;
     padding: 10px 20px;
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
     font-size: 1em;
     cursor: pointer;
@@ -77,22 +81,21 @@ input[type="text"], input [type="range"] {
     padding: 10px 20px; /* Padding inside the box */
     border-radius: 0px; /* Rounded corners */
     z-index: 1000; /* Ensures the message stays on top */
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
     font-size: 1em;
 }
 
 #link-button {
-    background-color: #9370DB;
+    background-color: #4f4f4f;
     color: white;
     padding: 10px 20px;
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
-    font-size: 1em;
     font-size: 1em;
     cursor: pointer;
     border-radius: 10px;
@@ -100,12 +103,12 @@ input[type="text"], input [type="range"] {
 }
 
 #open-modal-btn {
-    background-color: #9370DB;
+    background-color: #4f4f4f;
     color: white;
     padding: 10px 20px;
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
     font-size: 1em;
     font-size: 1em;
@@ -127,12 +130,12 @@ input[type="text"], input [type="range"] {
 }
 
 .modal-content {
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     margin: 15% auto;
     padding: 20px;
-    font-family: "Exo", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 778;
+    font-weight: weight;
     font-style: normal;
     font-size: 1em;
     border: 1px solid #888;
