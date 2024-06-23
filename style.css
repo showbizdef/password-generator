@@ -4,15 +4,16 @@ body {
     align-items: center;
     height: 100vh;
     font-family: "Titillium Web", sans-serif;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
 }
 .container {
     text-align: center;
     padding: 20px;
-    background-color: #DCDCDC;
+    color: white;
+    background-color: #1a1a1a;
     border: 1px solid #696969;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
 }
 
 input[type="text"], input [type="range"] {
@@ -20,7 +21,7 @@ input[type="text"], input [type="range"] {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ffffff;
-    color: black;
+    color: white;
     background-color: #ffffff;
     border-radius: 5px;
     font-size: 16px;
@@ -30,7 +31,7 @@ input[type="text"], input [type="range"] {
     font-style: normal;
     font-size: 1em;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
 }
 
 #password {
@@ -169,4 +170,26 @@ input[type="text"], input [type="range"] {
     border-radius: 5px;
     background-color: red;
     transition: width 0.3s, background-color 0.3s;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    margin-right: 20px; /* Расстояние между логотипом и заголовком */
+}
+
+.logo {
+    height: 50px; /* Измените размер логотипа по необходимости */
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px; /* Измените размер заголовка по необходимости */
+    color: #333;
 }

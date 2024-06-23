@@ -29,7 +29,7 @@
         }).catch(err => {
             console.error('Failed to copy: ', err);
         });
-    };
+    }
 
     function openLinkWindow() {
         const width = 500;
