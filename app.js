@@ -16,7 +16,7 @@
             password += charset[randomIndex];
         }
         passwordField.value = password;
-        const strength = evaluatePasswordStrength(password);
+        const strength = evaluvatePasswordStrength(password);
         updateStrengthIndicator(strength);
     }
     
@@ -139,7 +139,7 @@
         const passwordLength = passwordLengthSlider.value;
         const password = generatePassword(passwordLength);
         passwordField.value = password;
-        const strength = evaluatePasswordStrength(password);
+        const strength = evaluvatePasswordStrength(password);
         updateStrengthIndicator(strength);
 
         copyBtn.addEventListener('click', copyPassword);
