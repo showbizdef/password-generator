@@ -21,15 +21,19 @@
 </div>
 
 <div class="container">
-    <h1>Password Generator</h1>
+    <div class="password-generator">
+    <h2>Password Generator</h2>
+    </div>
     <div>
         <label for="passwordLength">Password Length: <span id="lengthValue">12</span></label>
         <input type="range" id="passwordLength" min="8" max="20" value = "12">
     </div>
+    <div class="buttons">
     <input type="text" placeholder="Here can be your password" id="password" readonly>
     <button id="generate-btn">Generate</button>
     <button id="copy-btn">Copy Password</button>
     <button id="open-modal-btn">Why so hard?</button>
+    </div>
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
