@@ -144,3 +144,12 @@
 
         copyBtn.addEventListener('click', copyPassword);
     });
+
+    document.getElementById('theme-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-theme');
+        document.querySelector('.container').classList.toggle('dark-theme');
+    });
+
+    function openLink() {
+        window.open("https://github.com/showbizdef/password-generator");
+    }
